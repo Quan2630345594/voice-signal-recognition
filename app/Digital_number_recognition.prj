@@ -1,0 +1,86 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1288616366" file="C:\Users\26303\Desktop\app\Digital_number_recognition.prj" location="C:\Users\26303\Desktop\app" name="Digital_number_recognition" target="target.mlapps" target-name="打包为 App">
+    <param.appname>Digital_number_recognition</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\26303\AppData\Local\Temp\tp32bf5dbe_eab3_4c7e_8eb0_4ed7aef17a99.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>28639708-9ecd-47b0-8b9d-3f34f112776c</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Digital_number_recognition.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\icon\icon1.jpg</file>
+      <file>${PROJECT_ROOT}\icon\icon2.jpg</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\74_6_2.wav</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\DSP分帧加窗\加重分帧加窗\sap-voicebox\voicebox\enframe.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\DSP分帧加窗\加重分帧加窗\sap-voicebox\voicebox\v_enframe.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\DSP分帧加窗\加重分帧加窗\win_process.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\MFCC(2)\Mfcc.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\quan_start.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\findSegment.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\FrameTimeC.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\shuangmenxian.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\STEn.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\STZcr.m</file>
+      <file>${PROJECT_ROOT}\MFCC特征整合\双门限\vad_TwoThr.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\26303\Desktop" name="app" optional="false">C:\Users\26303\Desktop\app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
